@@ -1,0 +1,49 @@
+html(lang='en')  
+ head
+    style
+      include ../static/style.css
+ body
+    nav#navbar.top
+        ul 
+           div#logo 
+               img(src="/static/img/logo.png")
+               | RDA
+           li #[a(href="/") HOME]
+           li #[a(href="/") ABOUT]
+           li #[a(href="/") SERVICES]
+           LI #[a(href="/") CLASS INFO]
+           LI #[a(href="/") CONTACT INFO ]
+        section#introsection
+            div Welcome to Rohits Dance Academy 
+            div.small Eat Sleep Dance Repeat
+        section#missionsection
+            h2 Our Missions
+            div.card
+                 h3 Dance perfection
+                 div.card-box 
+                     img(src="/static/img/1.png", alt="image doesnt suppoet u rdevice")
+                     div.card-content
+                        p this is the best dance academy 
+            div.card
+                 h3 Dance the way u like
+                 div.card-box 
+                     img(src="/static/img/2.png", alt="image doesnt suppoet u rdevice")
+                     div.card-content 
+                         p this is the best dance academy 
+            div.card
+                h3 Expert teaching 
+                div.card-box
+                    img(src="/static/img/3.png", alt="image doesnt suppoet u rdevice")
+                    div.card-content 
+                        p  this is the best dance academy 
+        section#sponsersection
+                h2 Our sponsor
+                div#sponsors 
+                       img.spImage(src="/static/img/logo1.png", alt="sponsor image" class="spimage")
+                       img.spImage(src="/static/img/logo2.png", alt="sponsor image" class="spimage")
+                       img.spImage(src="/static/img/logo3.png", alt="sponsor image" class="spimage")
+                       img.spImage(src="/static/img/logo4.png", alt="sponsor image" class="spimage")
+        section#footer
+             | copyright all right reserved under rohit singh
+    script
+        include ../static/index.js

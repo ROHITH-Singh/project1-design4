@@ -1,0 +1,22 @@
+html
+  head
+    title  Rohit Dance Academy
+    block scripts
+    block style
+    style
+      include ../static/style.css
+
+  body
+    block content
+     nav#navbar.top
+         ul 
+           div#logo 
+               img(src="/static/img/logo.png")
+               | RDA
+           li #[a(href="/") HOME]
+           li #[a(href="/") ABOUT]
+           li #[a(href="/") SERVICES]
+           LI #[a(href="/") CLASS INFO]
+           LI #[a(href="/contact") CONTACT INFO ]    
+    footer#footer
+             | copyright all right reserved under rohit singh  
